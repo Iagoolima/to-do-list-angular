@@ -1,0 +1,35 @@
+.box-task{
+    width: 40rem;
+    min-height: 3rem;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: .5rem;
+    
+    border: 1px solid silver;
+    
+    border-radius: 10px;
+}
+
+p{
+    font-size: 1.5em;
+    padding: 0 3px;
+}
+
+button{
+    min-height: 3rem;
+    width: 10rem;
+    border: none;
+
+    background-color: rgb(255, 145, 0);
+
+    color: white;
+    font-weight: bold;
+    
+    cursor: pointer;
+
+    border-radius: 0 10px 10px 0 ;
+}

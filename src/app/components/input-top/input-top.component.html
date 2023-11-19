@@ -1,0 +1,10 @@
+<div class="box-input">
+  <input
+    type="text"
+    [(ngModel)]="name"
+    name="name"
+    placeholder="Adicionar tarefa"
+    autocomplete="off"
+  />
+  <button (click)="saveName()">{{'Adicionar' | uppercase}}</button>
+</div>
